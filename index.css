@@ -56,65 +56,107 @@ table {
     
 }
 
-/* styling section */
+/*=========== styling section ==================================*/
 
 html {
-    font-size: 62.5%;
+font-size: 62.5%;
 }
 
 body{
-    font-size: 1.6rem;
+font-size: 1.6rem;
+
 }
 
 .container {
-    border: 2px solid gray;
+border: 2px solid gray;
 
 }
 
 h1 {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 2.5rem ;
-    color: green;
+font-family: 'Chelsea Market', cursive;
+font-size: 6rem ;
+color: green;
+text-align: center;
+padding:
 }
 
-.links {
- border: 2px solid gray;   
+p,a,footer {
+font-family: 'Roboto Mono', monospace;
+}
+
+
+.container header nav a {
+margin: 0 20px;
+border: 1px solid lightgray;
+padding:  20px;
+display: inline-block;
+border-radius: 20px;
+color: white;
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+div .explore {
+    text-align: center;
+    
+}
+
+
+
+div .mountains {
+width:20%;
+border: 2px solid grey;
+border-radius: 50%;
+}
+
+div .campfire {
+   display: inline-block;
+   width: 20%;
+   
+}
+
+div .truck {
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto; 
+    padding: 20px;  
+    
+}
+
+
+.info {
+border: 2px solid gray; 
+background-color: #DDB9A3;
 }
 
 nav a{
-    color: black;
-    text-decoration: none;
-    letter-spacing: 3px;
-    margin: 0 4%;
+background-color:#FF764E ;
 }
-.container header nav a {
+
+
+nav a:last-child {
+background-color: #FFCD69;
+
+}
+/* footer section =========*/
+
+footer {
+    width: 100%;
+}
+footer .footer-content{
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+}
+
+nav a {
     margin: 0 20px;
     border: 1px solid lightgray;
-    padding: 20px;
+    padding:  20px;
     display: inline-block;
     border-radius: 20px;
     color: white;
     text-decoration: none;
     margin-bottom: 20px;
-}
-nav parent{
-
-}
-
-img {
-    border: 2px solid grey;
-}
-
-.info {
-    border: 2px solid gray; 
-}
- 
-nav a{
-    background-color:#FF764E ;
-}
-
-
-nav a:last-child {
-    background-color: #FFCD69;
-
-}
+    }
+    

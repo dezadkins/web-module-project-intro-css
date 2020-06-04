@@ -77,18 +77,20 @@ font-family: 'Roboto Mono', monospace;
 /* navigation section ======================*/
 
 nav a {
-margin: 0 20px;
-border: 1px solid black;
-padding:  20px;
+width: 20%;
+margin: 0 2% 6% 7%;
+padding:  2%;
 display: inline-block;
+text-align: center;
 border-radius: 20px;
 color: white;
 text-decoration: none;
 margin-bottom: 20px;
 }
 
+
 .nav1 {
-background-color:#FF764E ;
+background-color:#FF764E;
 }
 
 .nav2 {
@@ -103,7 +105,6 @@ background-color: #FFCD69;
 
 div .mountainz {
 width: 20%;
-height: 200px;
 display: inline-block;
 margin: 0;
 }
@@ -111,95 +112,131 @@ margin: 0;
 
 
 .mountainz img{
-width: 30%;
-height: 325px;
+width: 35%;
+height: 45vh;
 border-radius: 50%;
-padding: 5%;
+padding: 7%; 
 display: inline-block;
-margin: 0;
+margin: 0%;
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 4rem ;
     text-align: center;
-    border: 2px dotted black;
     display: inline-block;
-    margin: 0;
-    
-    } 
-
-.guide {
-    width: 50%;
-    height: 50%;
-    border: 2px solid black;
-    display: inline-block;
+    position: relative;
+    left: 33%;
+    bottom: 250px;
     margin: 0;
 }
+
+h2 {
+    font-size: 1.4rem;
+}
+
+.guide {
+    width: 82%;
+    height: 50%;
+    display: inline-block;
+    position: relative;
+    left: 16%;
+    bottom: 225px;
+    text-align: center;
+    margin: 0;
+}
+
+.always {
+    font-size: 1.4rem;
+    width: 30%;
+    height: 60%;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    bottom: 200px;
+    text-align: center;
+    margin: 0;
+}
+
+.info {
+    height: 20vh;
+    width: 90vw;
+    background-color: #DDB9A3;
+    color: white;
+    margin: 0;
+    padding: 2% 0;
+    position: relative;
+    left: 4.4%;
+    bottom: 100px;
+    display:inline-block;
+    text-align: center;
+    }
 
 
 .fire-section{
-margin: 0%;
-padding: 5%;
 text-align: center;
+position: relative;
+top: 20%;
 }
 
 div .campfire {
-width: 20%;
+width: 15%;
+position: relative;
+bottom: 75px;
 }
 
 .over-fire{
-border: 1px solid black;
-margin: 0 auto;
+height: 20vh;
+width: 30vw;
+position: relative;
+left: 35%;
+bottom: 70px;
+text-align: center;
+line-height: 1.2 ;
 }
-.fire-section p {
-width: 60%;
+
+.over-fire b {
+font-weight: bold;
+}
+
+.truck-section{
+text-align: center;
 
 }
 
 .over-truck {
-border: 1px solid black;
+height: 20vh;
+width: 36vw;
 margin: 0 auto;
+padding: 2% 0;
 }
 
-.truck-section{
-margin: 0%;
-padding: 5%;
-text-align: center;
-
-}
 div .truck {
-width: 25%;
-margin: 0 auto; 
-padding: 20px; 
+width: 15%;
+ 
 }
 
-.truck-section p {
-width: 60%;
-
-}
-
-
-.info {
-border: 2px solid gray; 
-background-color: #DDB9A3;
-color: white;
-display:inline-block;
+.over-truck b {
+font-weight: bold;
 }
 
 
 /* footer section =========*/
 
 .footmount {
-height: 40vh;
-
-padding: 0;
+/* max-width: 100%;
+width: auto;*/
+height: 25vh;
+width: auto; 
 display: inline-block;
+overflow: hidden;
 border: 2px dotted black;
 }
 
 footer {
 width: 100%;
 background-color:#F9E7DC;
+margin: 0%;
+padding: 5%;
 }
 footer .footer-content{
 margin: 0 auto;
@@ -207,15 +244,4 @@ width: 100%;
 height: 50%;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-margin: 0 8 2% 3;
-border: 1px solid lightgray;
-padding:  15px;
-display: inline-block;
-border-radius: 20px;
 
-
-
-}

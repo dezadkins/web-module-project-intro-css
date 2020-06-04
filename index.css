@@ -75,7 +75,7 @@ border: 2px solid gray;
 h1 {
 font-family: 'Chelsea Market', cursive;
 font-size: 6rem ;
-color: green;
+
 text-align: center;
 padding:
 }
@@ -96,37 +96,74 @@ text-decoration: none;
 margin-bottom: 20px;
 }
 
-div .explore {
+div .mountainz, .explore {
+    /*text-align: center;*/
+    display:inline-block;
+
+    
+}
+
+div .mountainz {
+width: 30%;
+}/*lets make another style with mountainz img {border-radius:50%;*/
+
+    .mountainz img{
+        border-radius: 50%;
+    }
+    .explore{
+        width:55%;
+    margin-left:5%;
+    text-align:center;
+    line-height:3;
+    }
+
+.fire-section{
+    margin: 0%;
+    padding: 5%;
     text-align: center;
-    
 }
-
-
-
-div .mountains {
-width:20%;
-border: 2px solid grey;
-border-radius: 50%;
-}
-
 div .campfire {
-   display: inline-block;
    width: 20%;
-   
 }
 
-div .truck {
-    display: inline-block;
-    width: 20%;
-    margin: 0 auto; 
-    padding: 20px;  
-    
+.over-fire{
+    border: 1px solid black;
+    margin: 0 auto;
 }
+.fire-section p {
+  width: 60%;
+  
+}
+
+.over-truck {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.truck-section{
+    margin: 0%;
+    padding: 5%;
+    text-align: center;
+
+}
+div .truck {
+    
+    width: 25%;
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.truck-section p {
+    width: 60%;
+    
+  }
 
 
 .info {
 border: 2px solid gray; 
 background-color: #DDB9A3;
+color: white;
+display:inline-block;
 }
 
 nav a{
@@ -142,6 +179,7 @@ background-color: #FFCD69;
 
 footer {
     width: 100%;
+    background-color:#F9E7DC;
 }
 footer .footer-content{
     margin: 0 auto;

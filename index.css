@@ -76,31 +76,58 @@ font-family: 'Roboto Mono', monospace;
 /* navigation section ======================*/
 
 nav a {
-width: 20%;
-margin: 0 2% 6% 7%;
-padding:  2%;
+width: 19%;
+margin: 0 2% 2% 9%;
+padding:  1.3%;
 display: inline-block;
 text-align: center;
 border-radius: 20px;
 color: white;
 text-decoration: none;
-margin-bottom: 20px;
+margin-top: 20px;
 }
 
 
 .nav1 {
 background-color:#FF764E;
+transition: out;
+transition: 1s ease;
 }
+.nav1:hover {
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+transition: 1s ease;
+}
+
+
 
 .nav2 {
 background-color: #5ED3EB;
+transform: out;
+transition: 1s ease;
 }
+.nav2:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
+    }
 
 
 .nav3 {
 background-color: #FFCD69;
-
+padding: 1.3%;
+transform: out;
+transition: 1s ease;
 }
+
+.nav3:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
+    }
 
 div .mountainz {
 width: 20%;
@@ -111,11 +138,12 @@ margin: 0;
 
 
 .mountainz img{
-width: 35%;
-height: 45vh;
+width: 34%;
+height: 42vh;
 border-radius: 50%;
 padding: 7%; 
 display: inline-block;
+object-fit: cover;
 margin: 0%;
 }
 h1 {
@@ -220,22 +248,24 @@ font-weight: bold;
 
 
 /* footer section =========*/
-
+ section .footmount {
+    width: 100%;
+    object-fit: cover;
+    object-position: top center; 
+   
+}
 .footmount {
-/* max-width: 100%;
-width: auto;*/
-height: 25vh;
-width: auto; 
+height: 29vh;
 display: inline-block;
-overflow: hidden;
-border: 2px solid black;
+padding:0 4 2%;
+margin:0%;
 }
 
 footer {
 width: 100%;
 background-color:#F9E7DC;
 margin: 0%;
-padding: 5%;
+padding: 2%;
 }
 footer .footer-content{
 margin: 0 auto;

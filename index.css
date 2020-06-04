@@ -67,27 +67,18 @@ font-size: 1.6rem;
 
 }
 
-.container {
-border: 2px solid gray;
 
-}
+ 
 
-h1 {
-font-family: 'Chelsea Market', cursive;
-font-size: 6rem ;
-
-text-align: center;
-padding:
-}
-
-p,a,footer {
+p,a,footer, h2 {
 font-family: 'Roboto Mono', monospace;
 }
 
+/* navigation section ======================*/
 
-.container header nav a {
+nav a {
 margin: 0 20px;
-border: 1px solid lightgray;
+border: 1px solid black;
 padding:  20px;
 display: inline-block;
 border-radius: 20px;
@@ -96,67 +87,96 @@ text-decoration: none;
 margin-bottom: 20px;
 }
 
-div .mountainz, .explore {
-    /*text-align: center;*/
-    display:inline-block;
+.nav1 {
+background-color:#FF764E ;
+}
 
-    
+.nav2 {
+background-color: #5ED3EB;
+}
+
+
+.nav3 {
+background-color: #FFCD69;
+
 }
 
 div .mountainz {
-width: 30%;
-}/*lets make another style with mountainz img {border-radius:50%;*/
+width: 20%;
+height: 200px;
+display: inline-block;
+margin: 0;
+}
 
-    .mountainz img{
-        border-radius: 50%;
-    }
-    .explore{
-        width:55%;
-    margin-left:5%;
-    text-align:center;
-    line-height:3;
-    }
+
+
+.mountainz img{
+width: 30%;
+height: 325px;
+border-radius: 50%;
+padding: 5%;
+display: inline-block;
+margin: 0;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem ;
+    text-align: center;
+    border: 2px dotted black;
+    display: inline-block;
+    margin: 0;
+    
+    } 
+
+.guide {
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0;
+}
+
 
 .fire-section{
-    margin: 0%;
-    padding: 5%;
-    text-align: center;
+margin: 0%;
+padding: 5%;
+text-align: center;
 }
+
 div .campfire {
-   width: 20%;
+width: 20%;
 }
 
 .over-fire{
-    border: 1px solid black;
-    margin: 0 auto;
+border: 1px solid black;
+margin: 0 auto;
 }
 .fire-section p {
-  width: 60%;
-  
+width: 60%;
+
 }
 
 .over-truck {
-    border: 1px solid black;
-    margin: 0 auto;
+border: 1px solid black;
+margin: 0 auto;
 }
 
 .truck-section{
-    margin: 0%;
-    padding: 5%;
-    text-align: center;
+margin: 0%;
+padding: 5%;
+text-align: center;
 
 }
 div .truck {
-    
-    width: 25%;
-    margin: 0 auto; 
-    padding: 20px; 
+width: 25%;
+margin: 0 auto; 
+padding: 20px; 
 }
 
 .truck-section p {
-    width: 60%;
-    
-  }
+width: 60%;
+
+}
 
 
 .info {
@@ -166,35 +186,36 @@ color: white;
 display:inline-block;
 }
 
-nav a{
-background-color:#FF764E ;
-}
 
-
-nav a:last-child {
-background-color: #FFCD69;
-
-}
 /* footer section =========*/
 
+.footmount {
+height: 40vh;
+
+padding: 0;
+display: inline-block;
+border: 2px dotted black;
+}
+
 footer {
-    width: 100%;
-    background-color:#F9E7DC;
+width: 100%;
+background-color:#F9E7DC;
 }
 footer .footer-content{
-    margin: 0 auto;
-    width: 100%;
-    height: 50%;
+margin: 0 auto;
+width: 100%;
+height: 50%;
 }
 
 nav a {
-    margin: 0 20px;
-    border: 1px solid lightgray;
-    padding:  20px;
-    display: inline-block;
-    border-radius: 20px;
     color: white;
     text-decoration: none;
-    margin-bottom: 20px;
-    }
-    
+margin: 0 8 2% 3;
+border: 1px solid lightgray;
+padding:  15px;
+display: inline-block;
+border-radius: 20px;
+
+
+
+}
